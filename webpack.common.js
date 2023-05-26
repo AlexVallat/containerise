@@ -38,7 +38,7 @@ module.exports = {
         ],
       },
       {
-        test: /icons\/.*$/,
+        test: /icons[\\/].*$/,
         type: 'javascript/auto',
         use: [
           {
@@ -62,7 +62,7 @@ module.exports = {
         ],
       },
       {
-        test: /docs\/.+\.(md)$/,
+        test: /docs[\\/].+\.(md)$/,
         use: [
           {
             loader: 'file-loader',
